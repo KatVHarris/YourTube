@@ -22,7 +22,7 @@ namespace TubeTalk
         public virtual async Task MessageReceivedAsync(IDialogContext context, IAwaitable<IMessageActivity> argument)
         {
             var message = await argument;
-
+            // Put correct regex here 
             //var regex = new Regex("http(?:s?):\\/\\/(?:www\\.)?youtu(?:be\\.com\\/watch\\?v=|\\.be\\/)([\\w\\-\\_]*)(&(amp;)?‌​[\\w\\?‌​=]*)?");
             var regex = new Regex("^http");
             if (regex.Match(message.Text).Success)
@@ -41,6 +41,7 @@ namespace TubeTalk
             }
             else
             {
+                // Non link - query Youtube here
                 GetYoutubeVideos(message.Text);
                 await context.PostAsync("Please paste a URL for the Youtube content you desire.");
                 context.Wait(MessageReceivedAsync);
@@ -74,9 +75,45 @@ namespace TubeTalk
             return await response.Content.ReadAsStringAsync();
         }
 
-        private void GetYoutubeVideos(string text)
+        /// <summary>
+        /// Use this method to return a list of hero cards to return to the bot for PostAsync
+        /// Hero Cards will appear in a carosel and look pretty
+        /// </summary>
+        /// <param name="text"></param>
+        private List<HeroCard> GetYoutubeVideos(string text)
         {
-            throw new NotImplementedException();
+            List<HeroCard> vidcards = new List<HeroCard>();
+
+            // query youtube api
+
+            // get back title of the video, thumbnail, desctiption, url
+            
+
+            foreach (Object x in YoutubePostResult)
+            {
+                
+                HeroCard vidHeroCard = new HeroCard()
+                {
+                    Title = videoname,
+                    Subtitle = videodescription,
+                    Images = new List<CardImage>()
+                        {
+                            new CardImage() { Url = videoThumbnail }
+                        },
+                    Buttons = new List<CardAction>()
+                        {
+                            new CardAction()
+                            {
+                                Title = "More details",
+                                Type = ActionTypes.OpenUrl,
+                                Value = videourl
+                            }
+                        }
+                };
+                vidcards.Add(vidHeroCard);
+            }
+
+            return vidcards;
         }
     }
 }
