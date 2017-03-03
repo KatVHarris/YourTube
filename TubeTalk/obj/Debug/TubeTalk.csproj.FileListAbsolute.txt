@@ -1,0 +1,39 @@
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Bot Application1.dll.config
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Bot Application1.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Bot Application1.pdb
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Autofac.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Chronic.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.Bot.Builder.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.Bot.Connector.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.Rest.ClientRuntime.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.WindowsAzure.Configuration.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Newtonsoft.Json.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\System.Net.Http.Formatting.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\System.Web.Http.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\System.Web.Http.WebHost.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Autofac.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.Bot.Builder.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.Bot.Connector.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.Rest.ClientRuntime.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Microsoft.WindowsAzure.Configuration.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\Newtonsoft.Json.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\System.IdentityModel.Tokens.Jwt.pdb
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\System.Net.Http.Formatting.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\System.Web.Http.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\System.Web.Http.WebHost.xml
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\ar\Microsoft.Bot.Builder.resources.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\en\Microsoft.Bot.Builder.resources.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\es\Microsoft.Bot.Builder.resources.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\fa\Microsoft.Bot.Builder.resources.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\fr\Microsoft.Bot.Builder.resources.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\ja\Microsoft.Bot.Builder.resources.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\ru\Microsoft.Bot.Builder.resources.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\obj\Debug\TubeTalk.csprojResolveAssemblyReference.cache
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\obj\Debug\Bot Application1.dll
+c:\users\kats-surfacebook\documents\visual studio 2015\Projects\TubeTalk\TubeTalk\obj\Debug\Bot Application1.pdb
