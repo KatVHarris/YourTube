@@ -46,23 +46,31 @@ namespace TubeTalk
             }
             else
             {
-                Activity replyToConversation = context.MakeMessage() as Activity;
-                replyToConversation.Attachments = new List<Attachment>();
-
-                // Non link - query Youtube here
-        
-                var herocards = await GetYoutubeVideos(message.Text);
-                
-                foreach(var heroCard in herocards)
+                if(message.Text.ToLower() == "hi" || message.Text.ToLower() == "help")
                 {
-                    Attachment plAttachment = heroCard.ToAttachment();
-                    replyToConversation.Attachments.Add(plAttachment);
+                    await context.PostAsync("I can give you direct links to Youtube content! \n \n Paste a link to a Youtube video or type a search term to find a video =)");
+                    context.Wait(MessageReceivedAsync);
                 }
+                else
+                {
+                    Activity replyToConversation = context.MakeMessage() as Activity;
+                    replyToConversation.Attachments = new List<Attachment>();
 
-                await context.PostAsync(replyToConversation);
+                    // Non link - query Youtube here
+        
+                    var herocards = await GetYoutubeVideos(message.Text);
+                
+                    foreach(var heroCard in herocards)
+                    {
+                        Attachment plAttachment = heroCard.ToAttachment();
+                        replyToConversation.Attachments.Add(plAttachment);
+                    }
 
-                //await context.PostAsync("Please paste a URL for the Youtube content you desire.");
-                context.Wait(MessageReceivedAsync);
+                    await context.PostAsync(replyToConversation);
+
+                    //await context.PostAsync("Please paste a URL for the Youtube content you desire.");
+                    context.Wait(MessageReceivedAsync);
+                }
             }
         }
 
